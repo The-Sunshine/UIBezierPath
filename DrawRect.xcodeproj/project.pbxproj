@@ -15,6 +15,7 @@
 		D977F460215B6B37005076E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D977F45F215B6B37005076E3 /* main.m */; };
 		D977F46A215B6B37005076E3 /* DrawRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D977F469215B6B37005076E3 /* DrawRectTests.m */; };
 		D977F475215B6B37005076E3 /* DrawRectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D977F474215B6B37005076E3 /* DrawRectUITests.m */; };
+		D977F484215B6B46005076E3 /* DrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D977F483215B6B46005076E3 /* DrawRectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D977F470215B6B37005076E3 /* DrawRectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawRectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D977F474215B6B37005076E3 /* DrawRectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawRectUITests.m; sourceTree = "<group>"; };
 		D977F476215B6B37005076E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D977F482215B6B46005076E3 /* DrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectView.h; sourceTree = "<group>"; };
+		D977F483215B6B46005076E3 /* DrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D977F451215B6B36005076E3 /* AppDelegate.m */,
 				D977F453215B6B36005076E3 /* ViewController.h */,
 				D977F454215B6B36005076E3 /* ViewController.m */,
+				D977F482215B6B46005076E3 /* DrawRectView.h */,
+				D977F483215B6B46005076E3 /* DrawRectView.m */,
 				D977F456215B6B36005076E3 /* Main.storyboard */,
 				D977F459215B6B37005076E3 /* Assets.xcassets */,
 				D977F45B215B6B37005076E3 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D977F484215B6B46005076E3 /* DrawRectView.m in Sources */,
 				D977F455215B6B36005076E3 /* ViewController.m in Sources */,
 				D977F460215B6B37005076E3 /* main.m in Sources */,
 				D977F452215B6B36005076E3 /* AppDelegate.m in Sources */,
